@@ -1,0 +1,44 @@
+.col{
+   display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.containerBorder{
+        border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    width:430px;
+}
+.formControl{
+    margin: 15px;
+}
+.playerFormControl{
+       display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+        margin: 15px;
+            grid-column-gap: 20px;
+
+
+
+}
+.success_bottom{
+    outline:none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+.error_bottom{
+        outline:none;
+    border: none;
+    border-bottom: 2px solid red;
+}
+.submitButton{
+background: #6161f3;
+    color: white;
+    border: none;
+    padding: 9px;
+    border-radius: 5px;
+}
